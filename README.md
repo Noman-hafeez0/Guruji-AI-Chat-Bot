@@ -26,6 +26,8 @@ Powered by **Google Generative AI** and **speech technologies**, Guruji brings a
 ## 🛠️ Installation
 
 **1. Clone the repository:**
-```bash
-git clone https://github.com/yourusername/guruji.git
-cd guruji
+**2. Prepare the following .env file in your root folder: **
+
+.env
+GEMINI_KEY = Your API KEY
+- you can use any other API key as per your choice (Gemini is free But Open Ai will give better results (Paid))
