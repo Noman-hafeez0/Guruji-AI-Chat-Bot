@@ -27,7 +27,7 @@ Powered by **Google Generative AI** and **speech technologies**, Guruji brings a
              
 **1. Clone the repository:**                 
 
-## 2. Prepare the following .env file in your root folder: **        
+## 2. Prepare the following .env file in your root folder:        
 
 .env        
 GEMINI_KEY = Your API KEY         
