@@ -33,4 +33,20 @@ Powered by **Google Generative AI** and **speech technologies**, Guruji brings a
 GEMINI_KEY = Your API KEY         
 - you can use any other API key as per your choice
 - (Gemini is free But Open Ai will give better results (Paid))
+
+## 🖥️ Environment Setup
+
+To get started with the project, you need to **create a virtual environment** and install all required dependencies.
+
+### 1️⃣ Create a virtual environment
+```bash
+# Windows
+python -m venv env
+.\env\Scripts\activate
+
+# macOS / Linux
+python3 -m venv env
+source env/bin/activate
+pip install -r requirements.txt
+
   
