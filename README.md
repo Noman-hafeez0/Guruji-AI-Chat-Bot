@@ -23,11 +23,13 @@ Powered by **Google Generative AI** and **speech technologies**, Guruji brings a
 
 ---
 
-## 🛠️ Installation
+## 🛠️ Installation       
+             
+**1. Clone the repository:**                 
+**2. Prepare the following .env file in your root folder: **            
 
-**1. Clone the repository:**
-**2. Prepare the following .env file in your root folder: **
-
-.env
-GEMINI_KEY = Your API KEY
-- you can use any other API key as per your choice (Gemini is free But Open Ai will give better results (Paid))
+.env        
+GEMINI_KEY = Your API KEY         
+- you can use any other API key as per your choice
+- (Gemini is free But Open Ai will give better results (Paid))
+  
