@@ -32,7 +32,7 @@ Powered by **Google Generative AI** and **speech technologies**, Guruji brings a
 .env        
 GEMINI_KEY = Your API KEY         
 - you can use any other API key as per your choice
-- (Gemini is free But Open Ai will give better results (Paid))
+- (Gemini/GROQ are free But Open Ai will give better results (Paid))
 
 ## 🖥️ Environment Setup
 
