@@ -64,15 +64,59 @@ def handle_command(command: str):
         speak("Opening YouTube")
         webbrowser.open("https://www.youtube.com/")
         return
+
     if "google" in command:
         print("Opening Google")
         speak("Opening Google")
         webbrowser.open("https://www.google.com/")
         return
+
     if "linkedin" in command:
         print("Opening LinkedIn")
         speak("Opening LinkedIn")
         webbrowser.open("https://www.linkedin.com/")
+        return
+
+    if "whatsapp" in command:
+        print("Opening WhatsApp Web")
+        speak("Opening WhatsApp Web")
+        webbrowser.open("https://web.whatsapp.com/")
+        return
+
+    if "facebook" in command:
+        print("Opening Facebook")
+        speak("Opening Facebook")
+        webbrowser.open("https://www.facebook.com/")
+        return
+
+    if "instagram" in command:
+        print("Opening Instagram")
+        speak("Opening Instagram")
+        webbrowser.open("https://www.instagram.com/")
+        return
+
+    if "twitter" in command or "x" in command:
+        print("Opening Twitter")
+        speak("Opening Twitter")
+        webbrowser.open("https://x.com/")
+        return
+
+    if "gmail" in command:
+        print("Opening Gmail")
+        speak("Opening Gmail")
+        webbrowser.open("https://mail.google.com/")
+        return
+
+    if "spotify" in command:
+        print("Opening Spotify")
+        speak("Opening Spotify")
+        webbrowser.open("https://open.spotify.com/")
+        return
+
+    if "chatgpt" in command:
+        print("Opening ChatGPT")
+        speak("Opening ChatGPT")
+        webbrowser.open("https://chat.openai.com/")
         return
 
     # AI query
